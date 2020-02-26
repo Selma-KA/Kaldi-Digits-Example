@@ -9,6 +9,7 @@ Just follow the instructions on [Kaldi Tutorial](https://www.eleanorchodroff.com
 ## Preparing Audio Data
 
 The digits recordings data has been taken from [here](https://github.com/Jakobovski/free-spoken-digit-dataset/tree/master/recordings).
+
 The data must be named in the fashion: speaker digit iteration.wav. The data files currently have the format digit speaker iteration.wav, so this format must be changed with a simple bash script. Then the dataset will be split into two separate data: training and testing data.
 
 **NB:**  In a next step, you may need to re-sample the audio files using SoX.
