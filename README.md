@@ -4,7 +4,7 @@ The goal for this example is to develop a simple ASR system using the Kaldi tool
 
 ## Download Kaldi
 
-Just follow the instruction on [Kaldi Tutorial](https://www.eleanorchodroff.com/tutorial/kaldi/installation.html).
+Just follow the instructions on [Kaldi Tutorial](https://www.eleanorchodroff.com/tutorial/kaldi/installation.html).
 
 ## Preparing Audio Data
 
