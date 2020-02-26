@@ -1,0 +1,40 @@
+# align-equal-compiled "ark:gunzip -c exp/mono/fsts.1.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" ark,t:- | gmm-acc-stats-ali --binary=true exp/mono/0.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" ark:- exp/mono/0.1.acc 
+# Started at ح فيفري  2 11:07:15 CET 2020
+#
+align-equal-compiled 'ark:gunzip -c exp/mono/fsts.1.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' ark,t:- 
+gmm-acc-stats-ali --binary=true exp/mono/0.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' ark:- exp/mono/0.1.acc 
+add-deltas ark:- ark:- 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
+apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance nicolas_0_9 avg. like is -86.6338 over 46 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance nicolas_1_9 avg. like is -96.0097 over 29 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance nicolas_2_9 avg. like is -107.278 over 33 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance nicolas_3_9 avg. like is -81.9219 over 22 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance nicolas_4_9 avg. like is -92.1917 over 31 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance nicolas_5_9 avg. like is -102.467 over 32 frames.
+WARNING (align-equal-compiled[5.5.620~1-dce1dc]:EqualAlign():fstext/fstext-utils-inl.h:876) EqualAlign: the randomly constructed paths lengths: 18,25,22,19,21,18,23,22,20,18
+WARNING (align-equal-compiled[5.5.620~1-dce1dc]:EqualAlign():fstext/fstext-utils-inl.h:877) EqualAlign: utterance has too few frames 12 to align.
+WARNING (align-equal-compiled[5.5.620~1-dce1dc]:main():align-equal-compiled.cc:100) AlignEqual: did not align utterence nicolas_6_7
+LOG (apply-cmvn[5.5.620~1-dce1dc]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 1000 utterances, errors on 0
+WARNING (align-equal-compiled[5.5.620~1-dce1dc]:main():align-equal-compiled.cc:109) Computed 999 alignments; 0 lacked features, 1 had other errors.
+WARNING (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance nicolas_6_7
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance nicolas_7_0 avg. like is -105.32 over 35 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance nicolas_8_0 avg. like is -101.007 over 21 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance nicolas_9_0 avg. like is -105.621 over 40 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance theo_0_0 avg. like is -102.799 over 37 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance theo_1_0 avg. like is -125.169 over 22 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 600 utterances; for utterance theo_2_0 avg. like is -133.296 over 22 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 650 utterances; for utterance theo_3_0 avg. like is -135.563 over 22 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 700 utterances; for utterance theo_4_0 avg. like is -102.921 over 25 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 750 utterances; for utterance theo_5_0 avg. like is -111.571 over 28 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 800 utterances; for utterance theo_6_0 avg. like is -127.523 over 47 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 850 utterances; for utterance theo_7_0 avg. like is -113.184 over 41 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 900 utterances; for utterance theo_8_0 avg. like is -117.526 over 34 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:105) Processed 950 utterances; for utterance theo_9_0 avg. like is -108.785 over 36 frames.
+LOG (apply-cmvn[5.5.620~1-dce1dc]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 1000 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:112) Done 999 files, 1 with errors.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -107.865 over 34890 frames.
+LOG (gmm-acc-stats-ali[5.5.620~1-dce1dc]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=0 threads=1
+# Ended (code 0) at ح فيفري  2 11:07:15 CET 2020, elapsed time 0 seconds

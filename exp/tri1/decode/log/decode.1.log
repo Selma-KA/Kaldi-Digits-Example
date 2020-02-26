@@ -1,0 +1,1012 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at ح فيفري  2 11:07:46 CET 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+jackson_0_0 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_0 is -8.47124 over 62 frames.
+jackson_0_1 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_1 is -8.70917 over 51 frames.
+jackson_0_10 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_10 is -8.42662 over 66 frames.
+jackson_0_11 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_11 is -8.29634 over 59 frames.
+jackson_0_12 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_12 is -8.84191 over 49 frames.
+jackson_0_13 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_13 is -8.56364 over 57 frames.
+jackson_0_14 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_14 is -8.4658 over 60 frames.
+jackson_0_15 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_15 is -8.6333 over 62 frames.
+jackson_0_16 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_16 is -8.64715 over 53 frames.
+jackson_0_17 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_17 is -8.69149 over 51 frames.
+jackson_0_18 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_18 is -8.47459 over 63 frames.
+jackson_0_19 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_19 is -8.7658 over 62 frames.
+jackson_0_2 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_2 is -8.51668 over 51 frames.
+jackson_0_20 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_20 is -8.59134 over 60 frames.
+jackson_0_21 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_21 is -8.54557 over 58 frames.
+jackson_0_22 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_22 is -8.48491 over 58 frames.
+jackson_0_23 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_23 is -8.47264 over 57 frames.
+jackson_0_24 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_24 is -8.72786 over 62 frames.
+jackson_0_25 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_25 is -8.4848 over 60 frames.
+jackson_0_26 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_26 is -9.06316 over 56 frames.
+jackson_0_27 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_27 is -8.16089 over 63 frames.
+jackson_0_28 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_28 is -8.78126 over 62 frames.
+jackson_0_29 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_29 is -8.85563 over 56 frames.
+jackson_0_3 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_3 is -8.11887 over 58 frames.
+jackson_0_30 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_30 is -8.21958 over 62 frames.
+jackson_0_31 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_31 is -8.4671 over 55 frames.
+jackson_0_32 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_32 is -9.07244 over 60 frames.
+jackson_0_33 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_33 is -8.70698 over 64 frames.
+jackson_0_34 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_34 is -8.4875 over 64 frames.
+jackson_0_35 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_35 is -8.9501 over 61 frames.
+jackson_0_36 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_36 is -8.69001 over 58 frames.
+jackson_0_37 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_37 is -8.61029 over 60 frames.
+jackson_0_38 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_38 is -8.21916 over 64 frames.
+jackson_0_39 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_39 is -8.42251 over 56 frames.
+jackson_0_4 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_4 is -8.00051 over 52 frames.
+jackson_0_40 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_40 is -8.2492 over 69 frames.
+jackson_0_41 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_41 is -8.77759 over 67 frames.
+jackson_0_42 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_42 is -8.8183 over 64 frames.
+jackson_0_43 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_43 is -8.65533 over 60 frames.
+jackson_0_44 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_44 is -9.04464 over 65 frames.
+jackson_0_45 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_45 is -9.14363 over 64 frames.
+jackson_0_46 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_46 is -9.13887 over 65 frames.
+jackson_0_47 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_47 is -8.95033 over 65 frames.
+jackson_0_48 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_48 is -8.77798 over 63 frames.
+jackson_0_49 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_49 is -9.44787 over 76 frames.
+jackson_0_5 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_5 is -8.24338 over 55 frames.
+jackson_0_6 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_6 is -8.52953 over 61 frames.
+jackson_0_7 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_7 is -8.55934 over 53 frames.
+jackson_0_8 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_8 is -8.60663 over 56 frames.
+jackson_0_9 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_0_9 is -8.16281 over 61 frames.
+jackson_1_0 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_0 is -8.44889 over 50 frames.
+jackson_1_1 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_1 is -8.53215 over 51 frames.
+jackson_1_10 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_10 is -8.51704 over 57 frames.
+jackson_1_11 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_11 is -8.62809 over 49 frames.
+jackson_1_12 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_12 is -9.01023 over 43 frames.
+jackson_1_13 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_13 is -9.25134 over 45 frames.
+jackson_1_14 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_14 is -9.10128 over 66 frames.
+jackson_1_15 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_15 is -8.30191 over 43 frames.
+jackson_1_16 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_16 is -8.30389 over 47 frames.
+jackson_1_17 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_17 is -8.74204 over 40 frames.
+jackson_1_18 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_18 is -8.81197 over 43 frames.
+jackson_1_19 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_19 is -8.67972 over 46 frames.
+jackson_1_2 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_2 is -8.54437 over 46 frames.
+jackson_1_20 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_20 is -8.63469 over 44 frames.
+jackson_1_21 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_21 is -8.91435 over 47 frames.
+jackson_1_22 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_22 is -9.255 over 42 frames.
+jackson_1_23 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_23 is -8.15775 over 45 frames.
+jackson_1_24 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_24 is -8.22446 over 46 frames.
+jackson_1_25 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_25 is -8.10123 over 53 frames.
+jackson_1_26 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_26 is -8.70617 over 51 frames.
+jackson_1_27 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_27 is -8.86803 over 46 frames.
+jackson_1_28 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_28 is -9.21826 over 45 frames.
+jackson_1_29 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_29 is -9.09178 over 45 frames.
+jackson_1_3 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_3 is -8.71141 over 48 frames.
+jackson_1_30 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_30 is -9.17334 over 47 frames.
+jackson_1_31 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_31 is -8.7361 over 51 frames.
+jackson_1_32 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_32 is -8.70071 over 50 frames.
+jackson_1_33 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_33 is -9.25754 over 59 frames.
+jackson_1_34 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_34 is -8.84521 over 49 frames.
+jackson_1_35 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_35 is -8.54473 over 48 frames.
+jackson_1_36 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_36 is -8.7618 over 42 frames.
+jackson_1_37 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_37 is -8.69866 over 42 frames.
+jackson_1_38 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_38 is -8.63811 over 48 frames.
+jackson_1_39 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_39 is -9.49105 over 54 frames.
+jackson_1_4 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_4 is -8.90061 over 51 frames.
+jackson_1_40 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_40 is -9.22212 over 59 frames.
+jackson_1_41 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_41 is -9.29529 over 60 frames.
+jackson_1_42 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_42 is -9.08504 over 61 frames.
+jackson_1_43 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_43 is -9.37973 over 56 frames.
+jackson_1_44 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_44 is -9.40522 over 56 frames.
+jackson_1_45 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_45 is -9.88037 over 58 frames.
+jackson_1_46 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_46 is -9.27036 over 51 frames.
+jackson_1_47 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_47 is -9.53741 over 54 frames.
+jackson_1_48 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_48 is -8.86446 over 57 frames.
+jackson_1_49 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_49 is -9.65046 over 48 frames.
+jackson_1_5 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_5 is -8.81204 over 55 frames.
+jackson_1_6 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_6 is -8.9235 over 49 frames.
+jackson_1_7 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_7 is -8.49845 over 54 frames.
+jackson_1_8 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_8 is -8.24449 over 49 frames.
+jackson_1_9 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_1_9 is -8.77451 over 56 frames.
+jackson_2_0 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_0 is -9.1307 over 48 frames.
+jackson_2_1 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_1 is -9.22277 over 53 frames.
+jackson_2_10 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_10 is -8.94964 over 50 frames.
+jackson_2_11 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_11 is -8.84352 over 50 frames.
+jackson_2_12 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_12 is -9.36472 over 47 frames.
+jackson_2_13 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_13 is -9.51758 over 50 frames.
+jackson_2_14 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_14 is -9.49578 over 49 frames.
+jackson_2_15 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_15 is -9.41308 over 50 frames.
+jackson_2_16 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_16 is -9.55129 over 46 frames.
+jackson_2_17 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_17 is -9.53159 over 52 frames.
+jackson_2_18 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_18 is -9.6051 over 53 frames.
+jackson_2_19 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_19 is -9.58767 over 50 frames.
+jackson_2_2 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_2 is -9.19739 over 42 frames.
+jackson_2_20 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_20 is -9.86953 over 46 frames.
+jackson_2_21 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_21 is -9.05038 over 72 frames.
+jackson_2_22 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_22 is -9.02223 over 46 frames.
+jackson_2_23 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_23 is -9.16671 over 48 frames.
+jackson_2_24 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_24 is -9.44676 over 50 frames.
+jackson_2_25 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_25 is -9.29695 over 52 frames.
+jackson_2_26 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_26 is -9.69389 over 48 frames.
+jackson_2_27 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_27 is -9.37633 over 51 frames.
+jackson_2_28 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_28 is -9.253 over 49 frames.
+jackson_2_29 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_29 is -9.31646 over 53 frames.
+jackson_2_3 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_3 is -9.20141 over 48 frames.
+jackson_2_30 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_30 is -9.32085 over 46 frames.
+jackson_2_31 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_31 is -8.96917 over 45 frames.
+jackson_2_32 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_32 is -8.93231 over 49 frames.
+jackson_2_33 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_33 is -9.65585 over 49 frames.
+jackson_2_34 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_34 is -9.30441 over 47 frames.
+jackson_2_35 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_35 is -8.94131 over 45 frames.
+jackson_2_36 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_36 is -9.69697 over 47 frames.
+jackson_2_37 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_37 is -9.3164 over 38 frames.
+jackson_2_38 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_38 is -9.33202 over 45 frames.
+jackson_2_39 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_39 is -9.28191 over 44 frames.
+jackson_2_4 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_4 is -9.1535 over 46 frames.
+jackson_2_40 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_40 is -8.72901 over 53 frames.
+jackson_2_41 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_41 is -9.02855 over 56 frames.
+jackson_2_42 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_42 is -8.92483 over 57 frames.
+jackson_2_43 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_43 is -9.44319 over 50 frames.
+jackson_2_44 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_44 is -9.48028 over 60 frames.
+jackson_2_45 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_45 is -8.93678 over 63 frames.
+jackson_2_46 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_46 is -9.22988 over 50 frames.
+jackson_2_47 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_47 is -8.96145 over 47 frames.
+jackson_2_48 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_48 is -9.05036 over 48 frames.
+jackson_2_49 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_49 is -8.91743 over 52 frames.
+jackson_2_5 zero 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_5 is -9.32493 over 45 frames.
+jackson_2_6 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_6 is -9.05376 over 45 frames.
+jackson_2_7 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_7 is -9.09135 over 46 frames.
+jackson_2_8 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_8 is -9.65905 over 46 frames.
+jackson_2_9 two 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_2_9 is -8.97613 over 52 frames.
+jackson_3_0 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_0 is -8.93486 over 47 frames.
+jackson_3_1 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_1 is -9.50401 over 45 frames.
+jackson_3_10 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_10 is -8.78416 over 44 frames.
+jackson_3_11 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_11 is -8.41555 over 43 frames.
+jackson_3_12 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_12 is -9.63233 over 46 frames.
+jackson_3_13 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_13 is -8.68656 over 42 frames.
+jackson_3_14 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_14 is -8.60579 over 48 frames.
+jackson_3_15 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_15 is -8.49099 over 44 frames.
+jackson_3_16 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_16 is -8.76987 over 46 frames.
+jackson_3_17 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_17 is -8.49891 over 43 frames.
+jackson_3_18 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_18 is -8.8629 over 46 frames.
+jackson_3_19 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_19 is -9.01859 over 42 frames.
+jackson_3_2 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_2 is -9.55248 over 49 frames.
+jackson_3_20 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_20 is -8.98752 over 45 frames.
+jackson_3_21 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_21 is -8.74638 over 44 frames.
+jackson_3_22 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_22 is -8.96579 over 41 frames.
+jackson_3_23 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_23 is -9.30317 over 44 frames.
+jackson_3_24 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_24 is -8.92748 over 41 frames.
+jackson_3_25 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_25 is -9.16743 over 46 frames.
+jackson_3_26 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_26 is -8.99432 over 42 frames.
+jackson_3_27 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_27 is -8.92957 over 44 frames.
+jackson_3_28 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_28 is -9.39034 over 42 frames.
+jackson_3_29 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_29 is -9.38063 over 46 frames.
+jackson_3_3 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_3 is -9.48711 over 49 frames.
+jackson_3_30 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_30 is -9.36861 over 46 frames.
+jackson_3_31 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_31 is -9.62118 over 47 frames.
+jackson_3_32 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_32 is -9.73657 over 46 frames.
+jackson_3_33 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_33 is -9.65559 over 46 frames.
+jackson_3_34 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_34 is -8.81509 over 46 frames.
+jackson_3_35 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_35 is -9.03557 over 50 frames.
+jackson_3_36 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_36 is -8.92372 over 49 frames.
+jackson_3_37 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_37 is -9.35186 over 49 frames.
+jackson_3_38 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_38 is -9.29988 over 51 frames.
+jackson_3_39 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_39 is -9.09988 over 49 frames.
+jackson_3_4 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_4 is -8.71212 over 43 frames.
+jackson_3_40 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_40 is -9.07675 over 50 frames.
+jackson_3_41 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_41 is -9.31745 over 48 frames.
+jackson_3_42 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_42 is -9.08252 over 48 frames.
+jackson_3_43 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_43 is -9.21766 over 48 frames.
+jackson_3_44 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_44 is -9.47859 over 53 frames.
+jackson_3_45 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_45 is -9.03774 over 55 frames.
+jackson_3_46 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_46 is -8.97162 over 52 frames.
+jackson_3_47 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_47 is -9.03978 over 55 frames.
+jackson_3_48 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_48 is -8.8582 over 49 frames.
+jackson_3_49 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_49 is -9.31274 over 50 frames.
+jackson_3_5 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_5 is -8.81904 over 43 frames.
+jackson_3_6 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_6 is -8.64508 over 45 frames.
+jackson_3_7 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_7 is -9.41327 over 47 frames.
+jackson_3_8 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_8 is -8.8296 over 43 frames.
+jackson_3_9 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_3_9 is -8.68175 over 47 frames.
+jackson_4_0 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_0 is -8.82247 over 44 frames.
+jackson_4_1 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_1 is -8.18475 over 40 frames.
+jackson_4_10 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_10 is -9.64789 over 36 frames.
+jackson_4_11 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_11 is -9.20701 over 36 frames.
+jackson_4_12 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_12 is -7.7722 over 39 frames.
+jackson_4_13 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_13 is -9.07537 over 35 frames.
+jackson_4_14 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_14 is -9.06277 over 35 frames.
+jackson_4_15 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_15 is -9.00066 over 43 frames.
+jackson_4_16 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_16 is -8.99849 over 41 frames.
+jackson_4_17 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_17 is -10.0959 over 38 frames.
+jackson_4_18 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_18 is -9.22876 over 38 frames.
+jackson_4_19 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_19 is -9.48553 over 34 frames.
+jackson_4_2 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_2 is -8.29514 over 40 frames.
+jackson_4_20 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_20 is -9.4114 over 37 frames.
+jackson_4_21 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_21 is -9.17922 over 33 frames.
+jackson_4_22 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_22 is -9.73908 over 40 frames.
+jackson_4_23 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_23 is -8.44449 over 39 frames.
+jackson_4_24 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_24 is -9.04276 over 38 frames.
+jackson_4_25 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_25 is -9.09244 over 39 frames.
+jackson_4_26 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_26 is -9.52482 over 41 frames.
+jackson_4_27 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_27 is -9.086 over 41 frames.
+jackson_4_28 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_28 is -9.6305 over 45 frames.
+jackson_4_29 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_29 is -9.40773 over 42 frames.
+jackson_4_3 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_3 is -8.22767 over 39 frames.
+jackson_4_30 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_30 is -8.83237 over 42 frames.
+jackson_4_31 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_31 is -9.7079 over 41 frames.
+jackson_4_32 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_32 is -8.35917 over 41 frames.
+jackson_4_33 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_33 is -8.49483 over 40 frames.
+jackson_4_34 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_34 is -7.8865 over 38 frames.
+jackson_4_35 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_35 is -8.35405 over 41 frames.
+jackson_4_36 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_36 is -8.36317 over 38 frames.
+jackson_4_37 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_37 is -9.20857 over 48 frames.
+jackson_4_38 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_38 is -9.06568 over 45 frames.
+jackson_4_39 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_39 is -9.20544 over 46 frames.
+jackson_4_4 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_4 is -8.2247 over 41 frames.
+jackson_4_40 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_40 is -9.00092 over 45 frames.
+jackson_4_41 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_41 is -9.1237 over 43 frames.
+jackson_4_42 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_42 is -9.13222 over 41 frames.
+jackson_4_43 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_43 is -9.1798 over 44 frames.
+jackson_4_44 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_44 is -9.92168 over 45 frames.
+jackson_4_45 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_45 is -9.15098 over 42 frames.
+jackson_4_46 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_46 is -8.95581 over 49 frames.
+jackson_4_47 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_47 is -9.17772 over 47 frames.
+jackson_4_48 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_48 is -9.30072 over 45 frames.
+jackson_4_49 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_49 is -8.91662 over 48 frames.
+jackson_4_5 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_5 is -8.76197 over 42 frames.
+jackson_4_6 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_6 is -9.12435 over 43 frames.
+jackson_4_7 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_7 is -8.83261 over 39 frames.
+jackson_4_8 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_8 is -9.10816 over 40 frames.
+jackson_4_9 four 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_4_9 is -8.51747 over 40 frames.
+jackson_5_0 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_0 is -8.21995 over 40 frames.
+jackson_5_1 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_1 is -7.92001 over 39 frames.
+jackson_5_10 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_10 is -7.47339 over 37 frames.
+jackson_5_11 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_11 is -7.68687 over 42 frames.
+jackson_5_12 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_12 is -7.55632 over 35 frames.
+jackson_5_13 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_13 is -8.02115 over 40 frames.
+jackson_5_14 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_14 is -7.25033 over 36 frames.
+jackson_5_15 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_15 is -8.03166 over 41 frames.
+jackson_5_16 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_16 is -7.91551 over 38 frames.
+jackson_5_17 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_17 is -8.16628 over 38 frames.
+jackson_5_18 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_18 is -7.63196 over 34 frames.
+jackson_5_19 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_19 is -7.85781 over 35 frames.
+jackson_5_2 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_2 is -8.04594 over 43 frames.
+jackson_5_20 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_20 is -8.13273 over 32 frames.
+jackson_5_21 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_21 is -8.3395 over 36 frames.
+jackson_5_22 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_22 is -8.25187 over 35 frames.
+jackson_5_23 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_23 is -8.42375 over 39 frames.
+jackson_5_24 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_24 is -7.66978 over 38 frames.
+jackson_5_25 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_25 is -7.82369 over 37 frames.
+jackson_5_26 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_26 is -8.09684 over 39 frames.
+jackson_5_27 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_27 is -8.07553 over 38 frames.
+jackson_5_28 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_28 is -7.61656 over 35 frames.
+jackson_5_29 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_29 is -8.27721 over 46 frames.
+jackson_5_3 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_3 is -7.98163 over 38 frames.
+jackson_5_30 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_30 is -8.376 over 41 frames.
+jackson_5_31 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_31 is -8.03449 over 39 frames.
+jackson_5_32 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_32 is -8.05111 over 39 frames.
+jackson_5_33 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_33 is -7.93415 over 37 frames.
+jackson_5_34 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_34 is -8.30826 over 34 frames.
+jackson_5_35 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_35 is -8.28076 over 41 frames.
+jackson_5_36 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_36 is -7.42217 over 35 frames.
+jackson_5_37 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_37 is -8.15139 over 37 frames.
+jackson_5_38 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_38 is -8.49862 over 41 frames.
+jackson_5_39 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_39 is -7.89646 over 36 frames.
+jackson_5_4 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_4 is -8.20031 over 51 frames.
+jackson_5_40 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_40 is -8.20327 over 39 frames.
+jackson_5_41 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_41 is -8.59927 over 38 frames.
+jackson_5_42 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_42 is -8.85086 over 45 frames.
+jackson_5_43 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_43 is -8.57538 over 42 frames.
+jackson_5_44 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_44 is -8.75129 over 47 frames.
+jackson_5_45 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_45 is -8.47511 over 44 frames.
+jackson_5_46 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_46 is -8.79644 over 48 frames.
+jackson_5_47 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_47 is -9.16656 over 49 frames.
+jackson_5_48 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_48 is -9.60106 over 49 frames.
+jackson_5_49 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_49 is -8.47521 over 46 frames.
+jackson_5_5 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_5 is -7.95011 over 37 frames.
+jackson_5_6 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_6 is -8.50817 over 38 frames.
+jackson_5_7 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_7 is -8.33586 over 36 frames.
+jackson_5_8 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_8 is -7.99713 over 35 frames.
+jackson_5_9 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_5_9 is -8.88908 over 56 frames.
+jackson_6_0 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_0 is -9.10672 over 81 frames.
+jackson_6_1 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_1 is -9.42966 over 62 frames.
+jackson_6_10 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_10 is -8.55585 over 84 frames.
+jackson_6_11 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_11 is -8.66634 over 85 frames.
+jackson_6_12 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_12 is -8.59469 over 84 frames.
+jackson_6_13 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_13 is -8.70602 over 69 frames.
+jackson_6_14 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_14 is -8.74375 over 75 frames.
+jackson_6_15 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_15 is -8.63907 over 86 frames.
+jackson_6_16 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_16 is -8.50124 over 71 frames.
+jackson_6_17 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_17 is -8.72194 over 72 frames.
+jackson_6_18 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_18 is -8.27149 over 84 frames.
+jackson_6_19 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_19 is -8.75034 over 67 frames.
+jackson_6_2 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_2 is -9.04575 over 61 frames.
+jackson_6_20 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_20 is -9.14939 over 67 frames.
+jackson_6_21 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_21 is -8.85371 over 78 frames.
+jackson_6_22 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_22 is -8.77656 over 69 frames.
+jackson_6_23 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_23 is -8.75042 over 80 frames.
+jackson_6_24 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_24 is -8.61001 over 70 frames.
+jackson_6_25 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_25 is -8.56452 over 77 frames.
+jackson_6_26 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_26 is -8.63266 over 70 frames.
+jackson_6_27 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_27 is -8.53256 over 79 frames.
+jackson_6_28 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_28 is -9.2483 over 63 frames.
+jackson_6_29 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_29 is -9.17456 over 60 frames.
+jackson_6_3 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_3 is -9.24408 over 85 frames.
+jackson_6_30 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_30 is -8.99728 over 78 frames.
+jackson_6_31 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_31 is -8.86094 over 61 frames.
+jackson_6_32 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_32 is -9.21282 over 83 frames.
+jackson_6_33 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_33 is -8.92069 over 62 frames.
+jackson_6_34 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_34 is -9.23145 over 56 frames.
+jackson_6_35 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_35 is -9.41257 over 62 frames.
+jackson_6_36 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_36 is -9.30262 over 56 frames.
+jackson_6_37 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_37 is -8.66048 over 68 frames.
+jackson_6_38 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_38 is -8.89447 over 73 frames.
+jackson_6_39 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_39 is -9.13022 over 64 frames.
+jackson_6_4 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_4 is -9.48858 over 61 frames.
+jackson_6_40 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_40 is -9.31815 over 57 frames.
+jackson_6_41 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_41 is -8.98363 over 54 frames.
+jackson_6_42 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_42 is -9.036 over 49 frames.
+jackson_6_43 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_43 is -8.87164 over 65 frames.
+jackson_6_44 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_44 is -9.09229 over 47 frames.
+jackson_6_45 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_45 is -9.18638 over 57 frames.
+jackson_6_46 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_46 is -8.79112 over 77 frames.
+jackson_6_47 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_47 is -9.26325 over 68 frames.
+jackson_6_48 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_48 is -8.70183 over 52 frames.
+jackson_6_49 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_49 is -9.2447 over 67 frames.
+jackson_6_5 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_5 is -8.42787 over 66 frames.
+jackson_6_6 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_6 is -8.86482 over 74 frames.
+jackson_6_7 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_7 is -9.02467 over 62 frames.
+jackson_6_8 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_8 is -8.98068 over 81 frames.
+jackson_6_9 six 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_6_9 is -8.60322 over 81 frames.
+jackson_7_0 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_0 is -9.05324 over 41 frames.
+jackson_7_1 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_1 is -7.9943 over 45 frames.
+jackson_7_10 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_10 is -8.46487 over 42 frames.
+jackson_7_11 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_11 is -8.70502 over 39 frames.
+jackson_7_12 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_12 is -8.82292 over 42 frames.
+jackson_7_13 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_13 is -8.64859 over 43 frames.
+jackson_7_14 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_14 is -8.53613 over 46 frames.
+jackson_7_15 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_15 is -9.13209 over 38 frames.
+jackson_7_16 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_16 is -8.88817 over 41 frames.
+jackson_7_17 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_17 is -8.94432 over 45 frames.
+jackson_7_18 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_18 is -8.84298 over 39 frames.
+jackson_7_19 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_19 is -8.51128 over 45 frames.
+jackson_7_2 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_2 is -8.43667 over 36 frames.
+jackson_7_20 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_20 is -9.10474 over 44 frames.
+jackson_7_21 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_21 is -8.80727 over 50 frames.
+jackson_7_22 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_22 is -9.1761 over 42 frames.
+jackson_7_23 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_23 is -8.09268 over 54 frames.
+jackson_7_24 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_24 is -9.23079 over 42 frames.
+jackson_7_25 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_25 is -9.61183 over 45 frames.
+jackson_7_26 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_26 is -9.23328 over 47 frames.
+jackson_7_27 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_27 is -9.29731 over 47 frames.
+jackson_7_28 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_28 is -9.06658 over 41 frames.
+jackson_7_29 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_29 is -8.6841 over 43 frames.
+jackson_7_3 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_3 is -8.29862 over 41 frames.
+jackson_7_30 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_30 is -8.58132 over 44 frames.
+jackson_7_31 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_31 is -8.44924 over 40 frames.
+jackson_7_32 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_32 is -8.64089 over 52 frames.
+jackson_7_33 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_33 is -8.83866 over 52 frames.
+jackson_7_34 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_34 is -9.24355 over 49 frames.
+jackson_7_35 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_35 is -8.16273 over 39 frames.
+jackson_7_36 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_36 is -8.89282 over 38 frames.
+jackson_7_37 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_37 is -8.37359 over 39 frames.
+jackson_7_38 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_38 is -9.96162 over 46 frames.
+jackson_7_39 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_39 is -9.11332 over 49 frames.
+jackson_7_4 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_4 is -9.12237 over 40 frames.
+jackson_7_40 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_40 is -9.01312 over 47 frames.
+jackson_7_41 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_41 is -9.22704 over 48 frames.
+jackson_7_42 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_42 is -9.20231 over 46 frames.
+jackson_7_43 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_43 is -8.91828 over 52 frames.
+jackson_7_44 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_44 is -8.94664 over 49 frames.
+jackson_7_45 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_45 is -8.90326 over 44 frames.
+jackson_7_46 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_46 is -8.92328 over 47 frames.
+jackson_7_47 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_47 is -9.10239 over 47 frames.
+jackson_7_48 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_48 is -8.90859 over 44 frames.
+jackson_7_49 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_49 is -9.32207 over 47 frames.
+jackson_7_5 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_5 is -8.53833 over 43 frames.
+jackson_7_6 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_6 is -8.97789 over 43 frames.
+jackson_7_7 seven 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_7 is -8.59629 over 40 frames.
+jackson_7_8 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_8 is -9.14449 over 41 frames.
+jackson_7_9 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_7_9 is -9.04079 over 42 frames.
+jackson_8_0 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_0 is -8.62802 over 33 frames.
+jackson_8_1 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_1 is -8.74035 over 38 frames.
+jackson_8_10 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_10 is -8.77355 over 34 frames.
+jackson_8_11 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_11 is -8.97406 over 39 frames.
+jackson_8_12 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_12 is -8.83268 over 34 frames.
+jackson_8_13 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_13 is -9.80342 over 36 frames.
+jackson_8_14 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_14 is -8.66452 over 34 frames.
+jackson_8_15 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_15 is -9.18827 over 37 frames.
+jackson_8_16 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_16 is -8.90236 over 33 frames.
+jackson_8_17 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_17 is -9.54972 over 38 frames.
+jackson_8_18 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_18 is -8.9607 over 38 frames.
+jackson_8_19 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_19 is -9.35062 over 36 frames.
+jackson_8_2 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_2 is -9.21158 over 36 frames.
+jackson_8_20 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_20 is -9.53415 over 37 frames.
+jackson_8_21 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_21 is -9.23642 over 37 frames.
+jackson_8_22 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_22 is -8.93958 over 43 frames.
+jackson_8_23 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_23 is -8.56616 over 42 frames.
+jackson_8_24 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_24 is -8.9525 over 35 frames.
+jackson_8_25 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_25 is -8.77622 over 38 frames.
+jackson_8_26 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_26 is -9.02379 over 44 frames.
+jackson_8_27 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_27 is -8.3725 over 39 frames.
+jackson_8_28 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_28 is -8.67419 over 39 frames.
+jackson_8_29 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_29 is -8.45704 over 38 frames.
+jackson_8_3 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_3 is -9.10826 over 37 frames.
+jackson_8_30 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_30 is -8.60693 over 42 frames.
+jackson_8_31 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_31 is -9.05523 over 40 frames.
+jackson_8_32 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_32 is -9.19951 over 44 frames.
+jackson_8_33 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_33 is -9.5961 over 43 frames.
+jackson_8_34 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_34 is -8.91249 over 46 frames.
+jackson_8_35 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_35 is -8.95246 over 46 frames.
+jackson_8_36 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_36 is -9.14452 over 40 frames.
+jackson_8_37 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_37 is -9.06592 over 39 frames.
+jackson_8_38 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_38 is -9.01271 over 43 frames.
+jackson_8_39 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_39 is -9.19481 over 45 frames.
+jackson_8_4 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_4 is -9.37998 over 39 frames.
+jackson_8_40 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_40 is -8.91259 over 42 frames.
+jackson_8_41 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_41 is -9.2471 over 56 frames.
+jackson_8_42 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_42 is -8.53283 over 40 frames.
+jackson_8_43 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_43 is -8.67012 over 40 frames.
+jackson_8_44 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_44 is -9.02116 over 42 frames.
+jackson_8_45 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_45 is -9.15023 over 42 frames.
+jackson_8_46 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_46 is -9.30337 over 40 frames.
+jackson_8_47 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_47 is -8.74473 over 41 frames.
+jackson_8_48 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_48 is -9.12615 over 40 frames.
+jackson_8_49 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_49 is -8.96972 over 45 frames.
+jackson_8_5 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_5 is -8.92632 over 41 frames.
+jackson_8_6 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_6 is -9.08334 over 40 frames.
+jackson_8_7 eight 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_7 is -9.4711 over 41 frames.
+jackson_8_8 three 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_8 is -9.15909 over 35 frames.
+jackson_8_9 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_8_9 is -9.32313 over 36 frames.
+jackson_9_0 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_0 is -8.22704 over 58 frames.
+jackson_9_1 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_1 is -8.82584 over 55 frames.
+jackson_9_10 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_10 is -9.3921 over 49 frames.
+jackson_9_11 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_11 is -8.64301 over 60 frames.
+jackson_9_12 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_12 is -8.62622 over 56 frames.
+jackson_9_13 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_13 is -8.42123 over 57 frames.
+jackson_9_14 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_14 is -8.86716 over 60 frames.
+jackson_9_15 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_15 is -8.84118 over 57 frames.
+jackson_9_16 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_16 is -8.71699 over 45 frames.
+jackson_9_17 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_17 is -8.71001 over 46 frames.
+jackson_9_18 five 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_18 is -8.78897 over 52 frames.
+jackson_9_19 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_19 is -8.55681 over 52 frames.
+jackson_9_2 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_2 is -8.72018 over 56 frames.
+jackson_9_20 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_20 is -8.44542 over 57 frames.
+jackson_9_21 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_21 is -8.7471 over 52 frames.
+jackson_9_22 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_22 is -8.58661 over 50 frames.
+jackson_9_23 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_23 is -8.68914 over 60 frames.
+jackson_9_24 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_24 is -8.5806 over 52 frames.
+jackson_9_25 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_25 is -8.32064 over 47 frames.
+jackson_9_26 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_26 is -8.25493 over 60 frames.
+LOG (apply-cmvn[5.5.620~1-dce1dc]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 500 utterances, errors on 0
+jackson_9_27 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_27 is -8.43774 over 59 frames.
+jackson_9_28 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_28 is -8.2974 over 59 frames.
+jackson_9_29 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_29 is -8.23525 over 50 frames.
+jackson_9_3 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_3 is -9.02687 over 52 frames.
+jackson_9_30 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_30 is -9.7801 over 62 frames.
+jackson_9_31 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_31 is -9.28715 over 63 frames.
+jackson_9_32 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_32 is -8.97999 over 62 frames.
+jackson_9_33 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_33 is -9.10301 over 66 frames.
+jackson_9_34 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_34 is -8.71601 over 66 frames.
+jackson_9_35 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_35 is -8.90459 over 64 frames.
+jackson_9_36 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_36 is -9.07603 over 64 frames.
+jackson_9_37 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_37 is -9.33043 over 60 frames.
+jackson_9_38 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_38 is -9.08492 over 63 frames.
+jackson_9_39 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_39 is -9.29149 over 58 frames.
+jackson_9_4 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_4 is -8.73008 over 56 frames.
+jackson_9_40 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_40 is -9.4713 over 60 frames.
+jackson_9_41 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_41 is -9.54243 over 54 frames.
+jackson_9_42 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_42 is -9.13604 over 56 frames.
+jackson_9_43 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_43 is -9.2866 over 60 frames.
+jackson_9_44 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_44 is -9.42516 over 58 frames.
+jackson_9_45 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_45 is -9.00091 over 52 frames.
+jackson_9_46 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_46 is -9.36032 over 63 frames.
+jackson_9_47 one 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_47 is -9.31939 over 59 frames.
+jackson_9_48 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_48 is -9.50815 over 59 frames.
+jackson_9_49 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_49 is -9.05027 over 62 frames.
+jackson_9_5 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_5 is -8.47365 over 56 frames.
+jackson_9_6 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_6 is -8.56605 over 54 frames.
+jackson_9_7 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_7 is -8.76 over 52 frames.
+jackson_9_8 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_8 is -8.5143 over 62 frames.
+jackson_9_9 nine 
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jackson_9_9 is -8.79143 over 52 frames.
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:main():gmm-latgen-faster.cc:176) Time taken 3.0855s: real-time factor assuming 100 frames/sec is 0.012428
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:main():gmm-latgen-faster.cc:179) Done 500 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.620~1-dce1dc]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.87373 over 24827 frames.
+# Accounting: time=3 threads=1
+# Ended (code 0) at ح فيفري  2 11:07:49 CET 2020, elapsed time 3 seconds
