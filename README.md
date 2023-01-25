@@ -1,6 +1,6 @@
 # Digits Example
 
-The goal for this example is to develop a simple ASR system using the Kaldi toolkit with a small, targeted dataset.
+The goal for this example is to develop a simple ASR system using the Kaldi toolkit with a small targeted dataset.
 
 ## Download Kaldi
 
